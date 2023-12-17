@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: mmd;
+    color: whitesmoke;
+}
+@font-face{
+        font-family:'mmd';
+    src:url('fonts/byekan.ttf'),
+    url('fonts/byekan.woff');    
+}
+@font-face{
+      font-family:'mmdd';
+    src:url('fonts/lalezar.ttf'),
+        url('fonts/lalezar.woff');
+}
+#pageone{
+    background-image: url(images/background.png);
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.li{
+    display: inline-block;
+    padding: 15px;
+}
+a:hover{
+    color: orange; 
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: mmdd;
+    margin-top: 150px;
+}
+span{
+    font-family: mmdd;
+    color: orange;
+}
+.pp{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,.5);
+    width: 450px;
+    margin: auto;
+    line-height: 20px;
+    border-radius: 10px;
+    border:solid 2px gray;
+    margin-top: 10px;
+}
+#pagetwo{
+    height: 560px;
+    text-align: center;
+}
+.members{
+    height:450px;
+    width: 285px;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 14px;
+    box-shadow: 0px 0px 15px #bbbbbb
+}
+.mm{
+    width:100%;
+  
+}
+.p2{
+   text-align: center;
+    color: black;
+}
+.p3{
+    text-align:justify;
+    padding: 10px 15px;
+    color: black;
+}
+.pp4{
+    color: white;
+    padding: 30px;
+    text-align: justify;
+    font-size: 14px;
+    
+}
+.hh2{
+    color: white;
+    padding-top: 50px;
+}
+#pagethree{
+    height: 700px;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8px;
+    
+}
+#circle{
+ width: 500px;
+height: 500px;    
+margin: auto;
+background-color:rgba(0,0,0,.7);
+border-radius: 50%; 
+margin-top: 25px;
+   
+}
+#pagefour{
+    height: 500px;
+    margin-top: 30px;
+}
+.li2{
+   display:inline-block;
+    padding: 15px 70px;
+}
+.uu2{
+    list-style-type: none;
+    background-color: whitesmoke;
+    border: 2px solid dimgray;
+    border-radius: 5px;
+    margin: 22px;
+}
